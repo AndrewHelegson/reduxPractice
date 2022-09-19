@@ -36,3 +36,8 @@
   font-size: larger;
   display: block;
 }
+
+.statHeader {
+  font-size: 2rem;
+  font-weight: 700;
+}

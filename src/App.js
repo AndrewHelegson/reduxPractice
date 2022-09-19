@@ -38,9 +38,9 @@ function App() {
         <button onClick={() => minusRabbit()} className="buttonMinus" >-1 безбилетник</button>
       </div>
       <div>
-        <p>Статистика:</p>
-        <p>процент безбилетников равен:</p>
-        <p>{Math.round((rabbits / passengers) * 100)}%</p>
+        <p className="text">Статистика:</p>
+        <p className="text">процент безбилетников равен:</p>
+        <p className="text">{Math.round((rabbits / passengers) * 100)}%</p>
       </div>
 
     </div>
